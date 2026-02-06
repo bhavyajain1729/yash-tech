@@ -1,0 +1,100 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0em}
+  {}
+  [\titlerule]
+
+\begin{document}
+
+%==================== HEADER ====================
+\begin{center}
+    {\LARGE \textbf{Devansh Pareek}}\\[4pt]
+    +91 8839123433 \;|\;
+    \href{mailto:devanshpareek2004@gmail.com}{devanshpareek2004@gmail.com} \;|\;
+    LinkedIn
+\end{center}
+
+%==================== EDUCATION ====================
+\section*{Education}
+
+\textbf{MediCaps University}, Indore, MP \hfill \textit{Sept 2022 -- Present}\\
+B.Tech in Computer Science
+
+\vspace{4pt}
+\textbf{Chameli Devi Public School}, Indore, MP \hfill \textit{June 2018 -- May 2022}\\
+Primary and Secondary Education
+
+%==================== EXPERIENCE ====================
+\section*{Experience}
+
+\textbf{Yash Technologies}, Indore, MP \hfill \textit{Jan 5, 2026 -- Present}\\
+\textit{Python Developer Intern}
+\begin{itemize}[leftmargin=*]
+    \item Learning and implementing core Python concepts including lists, tuples, dictionaries, sets, and functions.
+    \item Writing clean and structured Python programs following industry best practices.
+    \item Developing logical problem-solving skills using Python data structures.
+    \item Preparing to build an end-to-end Python application.
+    \item Planned tech stack includes Streamlit for frontend, Python backend logic, and SQL database connectivity.
+\end{itemize}
+
+%==================== PROJECTS ====================
+\section*{Projects}
+
+\textbf{Jerry – Personal AI Assistant} | \textit{Python, Gemini API} \hfill \textit{July 2025}
+\begin{itemize}[leftmargin=*]
+    \item Built a desktop-based personal AI assistant with voice and text interaction using Gemini API.
+    \item Implemented real-time speech recognition and text-to-speech functionality.
+    \item Designed a lightweight GUI using Python with HTML/CSS.
+    \item Added system commands such as app launching, web search, date, time, weather, and news.
+    \item Implemented streaming AI responses with chat history persistence.
+\end{itemize}
+
+\textbf{ExpenseFlow – Expense Tracker Web App} | \textit{Flask, HTML, CSS, MySQL} \hfill \textit{April 2025}
+\begin{itemize}[leftmargin=*]
+    \item Developed a full-stack expense tracking web application with category-wise analytics.
+    \item Integrated MySQL for authentication and expense data storage.
+    \item Enabled PDF export and visualized expense trends.
+    \item Implemented secure login and registration using hashed passwords.
+\end{itemize}
+
+\textbf{Uber Data Analysis} | \textit{Python, Pandas, NumPy, Seaborn, Matplotlib} \hfill \textit{Jan 2025}
+\begin{itemize}[leftmargin=*]
+    \item Analyzed Uber ride data to identify peak hours and high-demand zones.
+    \item Performed temporal analysis by hour, day, and month.
+    \item Created heatmaps and bar charts for demand visualization.
+    \item Derived insights into customer behavior and demand fluctuations.
+\end{itemize}
+
+%==================== SKILLS ====================
+\section*{Technical Skills}
+
+\textbf{Languages:} Python, C++, SQL \\
+\textbf{Libraries/Tools:} NumPy, Pandas, Matplotlib, Seaborn, OpenCV \\
+\textbf{APIs \& Platforms:} Gemini API \\
+\textbf{Technologies:} Flask, HTML, CSS \\
+\textbf{Databases:} MySQL
+
+%==================== CERTIFICATIONS ====================
+\section*{Certifications}
+
+\begin{itemize}[leftmargin=*]
+    \item 100 Days of Code: Python Bootcamp – Udemy
+    \item NumPy, SciPy, Matplotlib \& Pandas A-Z: Machine Learning – Udemy
+    \item Introduction to Programming using Python – Kaggle
+    \item Python Basics – HackerRank
+    \item SQL Basics – HackerRank
+\end{itemize}
+
+\end{document}
