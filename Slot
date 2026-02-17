@@ -1,0 +1,21 @@
+def insert_parking_slots(self):
+    slots = ['A1', 'A2', 'A3', 'B1', 'B2']
+
+    for slot in slots:
+        self.cursor.execute(
+            "INSERT IGNORE INTO parking_slots (slot_name) VALUES (%s)",
+            (slot,)
+        )
+
+    self.connection.commit()
+    print("Parking slots inserted successfully ✅")
+
+def add_single_slot(self, slot_name):
+    self.cursor.execute(
+        "INSERT INTO parking_slots (slot_name) VALUES (%s)",
+        (slot_name,)
+    )
+    self.connection.commit()
+    print(f"Slot {slot_name} added successfully ✅"
+slot = input("Enter slot name: ")
+db.add_single_slot(slot)
